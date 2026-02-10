@@ -1,19 +1,43 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# My Learning Journal
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A responsive personal learning journal web application where I document my journey as a web developer. Built with vanilla JavaScript, HTML, and CSS.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Features
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+- **Dynamic Blog Posts**: Blog posts are rendered dynamically from a JavaScript data array
+- **Interactive Navigation**: Switch between Home, Blog Post Detail, and About pages
+- **Expandable Content**: "View More/View Less" toggle to show additional blog posts
+- **Fully Responsive**: Optimized layouts for desktop, tablet, and mobile devices
+- **Modern Design**: Clean, professional interface with smooth transitions
 
-Happy Coding!
+## Pages
+
+1. **Home Page**: Features a hero section with the latest blog post and a grid of recent posts
+2. **Blog Post Detail**: Full article view with related content
+3. **About Page**: Personal bio and learning philosophy
+
+## Technologies Used
+
+- HTML5
+- CSS3 (Flexbox, Grid, Media Queries)
+- Vanilla JavaScript (ES6 Modules)
+
+
+## Key Learning Outcomes
+
+- DOM manipulation and event handling
+- Modular JavaScript with ES6 imports/exports
+- Responsive design with mobile-first approach
+- Dynamic content rendering from data structures
+- Single Page Application (SPA) navigation patterns
+
+## Future Enhancements
+
+- Add local storage to persist user preferences
+- Implement search functionality
+- Add filtering by date or topic
+- Include comment system for blog posts
+
+---
+
+**Created as part of my Frontend Developer learning journey**
