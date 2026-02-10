@@ -1,0 +1,269 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.6em 3.2em;
+    align-items: center;
+}
+
+header p{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2em;
+    list-style: none;
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+
+.logo-title{
+    display: flex;
+    gap: 1.25em;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-title img{
+    width: 34px;
+    height: 34px;
+}
+
+.hero-section{
+    position: relative;
+}
+
+.hero-section-clicked{
+    margin: 1.6em 3.2em;
+    line-height: 2;
+}
+
+.hero-section img{
+    width: 100%;
+    object-fit: cover;
+    height: 70%;
+    cursor: pointer;
+}
+
+.hero-section-clicked img{
+    width: 100%;
+    object-fit: cover;
+    height: 70%;
+}
+
+.hero-text{
+    position: absolute;
+    bottom: 60px;
+    color: whitesmoke;
+    left: 3.2em;
+}
+
+.hero-text-clicked p{
+    font-size: 1.2rem;
+}
+
+.hero-text-clicked{
+    margin: 3.6em 4.2em;
+}
+
+.hero-article, .about-article{
+     margin: 1.6em 4.2em;
+     
+}
+
+.hero-article h3,
+.about-article h3{
+    font-size: 1.5rem;
+     
+}
+.hero-article p,
+.about-article p{
+    font-size: 1.2rem;
+}
+
+#home, #about{
+    cursor: pointer;
+}
+
+#recent-posts{
+    text-align: center;
+    margin-top: 6.6em;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.blog-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    margin: 3em;
+}
+
+.blog-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.blog-date {
+    font-size: 0.875rem;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.blog-card h3 {
+    font-size: 1.5rem;
+    margin: 0.5em 0;
+}
+
+.blog-card p:last-child {
+    line-height: 1.6;
+    color: #505050;
+}
+
+#view-more{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.bio{
+    display: flex;
+    margin: 1.6em 4.2em;
+    gap: 1.6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio img{
+    width: 300px;
+    height: 300px;
+}
+
+
+.bio p{
+    font-size: 1.2rem;
+}
+
+.about-article{
+     margin: 1.6em 4.2em;
+     padding-top: 1.6em;
+     
+}
+
+
+footer{
+    background-color: black;
+    color: whitesmoke;
+    padding: 1.6em 3.2em;
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+    .blog-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:480px) {
+    header{
+        margin: 1.6em;
+    }
+
+    .blog-grid{
+        grid-template-columns: 1fr;
+        gap: 1.5em;
+        margin: 1.6em;
+    }
+
+    .blog-grid p{
+        font-size: 1rem;
+    }
+    .hero-text{
+    left: 1.2em;
+}
+.hero-text-clicked{
+    margin: 1.6em;
+}
+    .hero-section-clicked{
+    margin: 1.6em 0;
+    line-height: 1.3;
+}
+
+    .hero-section-clicked h1{
+    font-size: 2rem;
+}
+ .hero-text-clicked p{
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+    .hero-article{
+        margin: 2.6em 1.6em;
+    }
+
+    .hero-article h3,
+    .hero-article p{
+        font-size: 1rem;
+        line-height: 1.3;
+    }
+
+
+    #recent-posts{
+    margin-top: 1.6em;
+    padding-top: 2em;
+    font-size: 1rem;
+
+}
+
+    .bio{
+    flex-direction: column;
+    margin: 1.6em;
+}
+
+.bio img{
+    width: 160px;
+    height: 160px;
+}
+
+.bio h1{
+    font-size: 2rem;
+}
+
+.bio p {
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+.about-article{
+    margin: 1.6em ;
+    padding: 1em 0;
+}
+
+.about-article h3,
+.about-article p{
+    font-size: 1rem;
+    line-height: 1.3;
+
+}
+
+
+
+}
